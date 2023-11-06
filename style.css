@@ -9,14 +9,20 @@ background-color: black;
     position: absolute;
     left: 0;
 }
+
+.carousel{
+    width: 100%;
+}
 .text-container{
     position: absolute;
     z-index: 100;
-    width: 50%;
+    width: 40%;
     color: white;
     top: 10%;
 }
-
+.text-container > .btn{
+    width: 10rem;
+}
 .carousel-inner{
     position: relative;
 }
